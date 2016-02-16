@@ -33,3 +33,7 @@ As of now we plan on using Mozilla's Sweet.js macro system.
 #### `#()` Set literal
 #### `∆{}` Weak map literal
 #### `∆()` Weak set literal
+
+### Functional programming syntax sugar
+#### `|>` pipe operator `f(x) |> g |> h === h(g(f(x)))`
+#### `•` (from Haskell) and/or `>>` (from F#) compose operator `f * g * h(x) === f >> g >> h(x) === f(g(h(x)))`
