@@ -45,4 +45,14 @@ As of now we plan on using Mozilla's Sweet.js macro system.
 #### `•` (from Haskell) and/or `>>` (from F#) compose operator
 `f * g * h(x) === f >> g >> h(x) === f(g(h(x)))`
 
-### Pattern matching?
+### Pattern matching
+[Sparkler](https://github.com/natefaubion/sparkler) exists, but I'm not sure how I feel about reusing the arrow syntax.
+
+Could we use the OCaml/F#-esque `|` syntax instead?
+
+```
+const patternExample ->
+  | [] -> null
+  | [...front, back] -> back
+ ```
+
