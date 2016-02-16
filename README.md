@@ -28,6 +28,7 @@ As of now we plan on using Mozilla's Sweet.js macro system.
 #### `~>` or `curry ->` Auto-curried function declaration (bindable, but unbound)
 #### `*>` or `gen ->` Function generator declaration
 #### `@>` or `async ->` Async function declaration
+#### `@` or `await` Async function calls
 
 ### Data type literals, perhaps immutable.js mappings
 #### `#{}` Map literal
