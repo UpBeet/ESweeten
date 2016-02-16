@@ -10,22 +10,26 @@ Babel's AST based approach, while modular under the hood, only allows plugins vi
 
 As of now we plan on using Mozilla's Sweet.js macro system.
 
+## Existential crisis
+
+- [ ] Implement ES6/7/* features as pluggable macros for the Sweet community
+- [x] Implement new language features from external communities (PureScript/Haskell, Elm, Clojure, etc)
+- [x] Implement syntactic sugar on top of ES6 runtime, which could then be passed to an ES6 transpiler if your runtime does not support it.
+
+## Methodolgy / Manifesto / Strategy / Modus operandi
+* Macros should be coupled only to the declarative structure, any non-runtime logic should be pluggable with external implementation or the internal provided one (e.g. write your own curry function or just use the Ramda we plug in).
+* Target the ES6 runtime
+
 ## Language Specification
 
 ### Functions
 #### `=>` Bound function declaration
 #### `->` Unbound function declaration
-#### `~>` Autocurried function declaration (bindable, but unbound)
+#### `~>` Auto-curried function declaration (bindable, but unbound)
 #### `*>` Function generator declaration
 
-### Variable declaration
-#### `let`
-#### `const`
-### `type` || `` for immutable declaration?
-
-### Decorators
-
-## What we are exluding (for now)
-
-* Classes
-* ???
+### Data type literals, perhaps immutable.js mappings
+### `#{}` Map literal
+### `#()` Set literal
+### `∆{} Weak map literal
+### `∆() Weak set literal
