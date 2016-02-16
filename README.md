@@ -22,12 +22,15 @@ As of now we plan on using Mozilla's Sweet.js macro system.
 
 ## Language Specification
 
-### Functions
+### Function declaration
 #### `->` Unbound function declaration
 #### `=>` or `bind ->` Bound function declaration
 #### `~>` or `curry ->` Auto-curried function declaration (bindable, but unbound)
 #### `*>` or `gen ->` Function generator declaration
 #### `@>` or `async ->` Async function declaration
+
+### Function calls
+#### `fn 1 2 3` or possibly `fn 1, 2, 3` parens unecessary like CoffeeScript
 #### `@` or `await` Async function calls
 
 ### Data type literals, perhaps immutable.js mappings
