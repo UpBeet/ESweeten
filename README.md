@@ -1,4 +1,4 @@
-# `ESweeten` (alternatively `diabetES`)
+# `diabeetES`
 
 A modular (but opinionated) macro based extension of the JavaScript runtime 
 
