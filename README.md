@@ -31,5 +31,5 @@ As of now we plan on using Mozilla's Sweet.js macro system.
 ### Data type literals, perhaps immutable.js mappings
 #### `#{}` Map literal
 #### `#()` Set literal
-#### `∆{} Weak map literal
-#### `∆() Weak set literal
+#### `∆{}` Weak map literal
+#### `∆()` Weak set literal
