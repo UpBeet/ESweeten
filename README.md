@@ -29,7 +29,7 @@ As of now we plan on using Mozilla's Sweet.js macro system.
 #### `*>` Function generator declaration
 
 ### Data type literals, perhaps immutable.js mappings
-### `#{}` Map literal
-### `#()` Set literal
-### `∆{} Weak map literal
-### `∆() Weak set literal
+#### `#{}` Map literal
+#### `#()` Set literal
+#### `∆{} Weak map literal
+#### `∆() Weak set literal
