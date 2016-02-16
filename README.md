@@ -23,10 +23,11 @@ As of now we plan on using Mozilla's Sweet.js macro system.
 ## Language Specification
 
 ### Functions
-#### `=>` Bound function declaration
 #### `->` Unbound function declaration
-#### `~>` Auto-curried function declaration (bindable, but unbound)
-#### `*>` Function generator declaration
+#### `=>` or `bind ->` Bound function declaration
+#### `~>` or `curry ->` Auto-curried function declaration (bindable, but unbound)
+#### `*>` or `gen ->` Function generator declaration
+#### `@>` or `async ->` Async function declaration
 
 ### Data type literals, perhaps immutable.js mappings
 #### `#{}` Map literal
